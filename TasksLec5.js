@@ -1,7 +1,16 @@
 console.log("Task 1");
+let a = "Spam, eggs, bacon!";
+function includesSymbol(symb, someStr){
+    if (someStr.includes(symb)){
+        return `String "${someStr}" includes ${symb}`;
+    } else {
+        return `String "${someStr}" does not include ${symb}`;    
+    }
+}
+console.log(includesSymbol("a", a));
+console.log(includesSymbol("z", a));
 
-
-console.log("Task 2");
+console.log("\nTask 2");
 
 function isBlank(someString) {
     if (someString.length === 0 || someString.trim() == ""){
@@ -14,10 +23,7 @@ console.log(isBlank(""));
 console.log(isBlank("     "));
 console.log(isBlank("Spam, eggs, bacon!"));
 
-console.log("Task 3");
-
-
-console.log("Task 4");
+console.log("\nTask 4");
 
 let numb1 = Math.floor(Math.random()*200);
 let numb2 = Math.floor(Math.random()*200);
@@ -33,7 +39,7 @@ function displayLargerNum(a,b) {
 }
 console.log(displayLargerNum(numb1, numb2));
 
-console.log("Task 5");
+console.log("\nTask 5");
 
 let num1 = Math.floor(Math.random()*200);
 let num2 = Math.floor(Math.random()*200);
@@ -56,10 +62,3 @@ function sortThreeNums(a, b, c){
 }
 
 console.log(sortThreeNums(num1, num2, num3));
-/*
-
-
-
-c,a,b
-c,b,a
-*/
