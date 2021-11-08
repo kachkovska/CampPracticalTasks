@@ -1,0 +1,11 @@
+{
+    "name": "my_camp_tasks",
+    "version": "1.0.0",
+    "description": "demo",
+    "author": "Yulia Kachkovska",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {}
+  }
